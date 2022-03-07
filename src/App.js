@@ -1,20 +1,40 @@
-import Projects from './Projects'
-import Resume from './Resume';
+import Projects from './components/Projects'
+import Resume from './components/Resume';
+import AboutMe from './components/AboutMe';
+import Icon from './components/Icon';
 
 function App() {
   return (
     <body>
 
       <header>
+        <nav>
 
-
+        </nav>
       </header>
 
-      <Resume />
+      <main>
+        <section>
 
-      <Projects />
+
+          <Resume />
+
+
+
+
+          <Projects />
+
+
+
+          <AboutMe />
+
+
+        </section>
+
+      </main>
 
       <footer>
+
       </footer>
 
     </body>

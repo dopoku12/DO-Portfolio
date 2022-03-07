@@ -1,3 +1,22 @@
+$darkMode: #24252a;
+$primary: #2142ab;
+$secondary: #f3f8fc;
 body {
-  width: auto;
+  height: 100%;
+  width: 100%;
+  background-color: $secondary;
+}
+
+header {
+  display: grid;
+  background-color: $primary;
+  height: 30vh;
+  text-align: center;
+  nav {
+    display: grid;
+    grid-template-rows: 5fr, 5fr, 5fr;
+    align-items: center;
+    gap: 1fr;
+    font-size: 1em;
+  }
 }

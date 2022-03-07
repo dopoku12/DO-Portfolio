@@ -1,9 +1,10 @@
 function Projects() {
     return (
-        <section>
-
-        </section>
+        <article>
+        </article>
     )
+
+
 }
 
 export default Projects
