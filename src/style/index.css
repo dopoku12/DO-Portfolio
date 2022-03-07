@@ -1,15 +1,31 @@
 body {
-  background-color: #fab005;
-  width: auto;
+  height: 100%;
+  width: 100%;
+  background-color: #f3f8fc;
+}
+
+body .root {
+  display: -ms-grid;
+  display: grid;
 }
 
 header {
-  background-color: white;
-  width: auto;
-  height: 20vh;
+  display: -ms-grid;
+  display: grid;
+  background-color: #2142ab;
+  height: 30vh;
+  text-align: center;
 }
 
-footer {
-  width: auto;
+header nav {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 5fr, 5fr, 5fr;
+      grid-template-rows: 5fr, 5fr, 5fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1fr;
+  font-size: 1em;
 }
 /*# sourceMappingURL=index.css.map */

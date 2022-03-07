@@ -1,43 +1,39 @@
+
 import Projects from './components/Projects'
 import Resume from './components/Resume';
 import AboutMe from './components/AboutMe';
-import Icon from './components/Icon';
+import Navbar from './components/Navbar';
 
 function App() {
+
+  // console.log('Objects:', Object.values(icons))
+  // const navIconArr = Object.values(icons)
+
+  // console.log('arr:', navIconArr[0]);
+
   return (
-    <body>
+    <div className='grid-container'>
 
       <header>
-        <nav>
-
-        </nav>
+        <h1>David <span>O</span></h1>
+        <Navbar />
       </header>
 
       <main>
         <section>
 
-
           <Resume />
-
-
-
-
           <Projects />
-
-
-
           <AboutMe />
 
-
         </section>
-
       </main>
 
       <footer>
 
       </footer>
 
-    </body>
+    </div>
   );
 }
 
